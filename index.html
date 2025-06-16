@@ -135,7 +135,6 @@
                 const singleDigitInput = document.createElement('input');
                 singleDigitInput.type = 'text';
                 singleDigitInput.className = 'single-digit';
-                singleDigitInput.maxLength = 1;
                 singleDigitInput.size = 1;
                 singleDigitInput.dataset.row = i;
                 singleDigitCell.appendChild(singleDigitInput);
@@ -146,7 +145,6 @@
                 const doubleDigitInput = document.createElement('input');
                 doubleDigitInput.type = 'text';
                 doubleDigitInput.className = 'double-digit';
-                doubleDigitInput.maxLength = 2;
                 doubleDigitInput.size = 2;
                 doubleDigitInput.dataset.row = i;
                 doubleDigitCell.appendChild(doubleDigitInput);
